@@ -76,7 +76,7 @@ input {
   border-radius: 15px;
 }
 
-/* style container with time in it */
+/* style container with time div */
 .timeBox {
   background-color: linen;  
   color: black;
@@ -132,7 +132,7 @@ input {
 /* media query for screen size to be applied to center text to switch at same time as navbar */
 @media (max-width: 768px) {
   .container-fluid {
-    /* removes paddding on either side */
+    /* removes paddding on the opposite side */
     padding-left: 0;
     padding-right: 0;
   }
